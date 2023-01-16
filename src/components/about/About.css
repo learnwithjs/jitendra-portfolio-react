@@ -1,0 +1,82 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border:1px solid red;
+}
+
+.about-left{
+    flex:1;
+    border:1px solid orange;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background-color: red; */
+}
+
+.about-right{
+    flex:1;
+    border:1px solid blue;
+}
+
+.about-card{
+    position: relative;
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    background-color: orange;
+    overflow: hidden;
+}
+
+.about-card.bg{
+    position: absolute;
+    top:50px;
+    left:50px;
+    background-color: cadetblue;
+}
+
+.about-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border: 1px solid blue; */
+    position: absolute;
+    border-radius: 30px;
+}
+
+.about-award{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-award-text{
+    width: 70%;
+}
+
+.about-award-title{
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.about-award-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.about-title{
+    font-weight: 400;
+}
+
+.about-sub{
+    margin:20px 0px;
+}
+
+.about-desc{
+    font-weight: 300;
+}
