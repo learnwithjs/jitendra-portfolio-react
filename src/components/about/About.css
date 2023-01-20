@@ -1,13 +1,33 @@
+/* creating layout for about container */
+/* 100vh mean cover whole screen height on which user open this website */
+
+/* writing css rule to create layout for different divs or container */
+/* layout mean arrangement of visual element on screen like images, text, form fields, or form, product card */
+
+/* what are the different properties used to create the layout of website or web page? */
+/* height, width
+    display
+    flex-direction
+    align-items
+    justify-content
+    flex
+    flex-basis
+    margin
+    padding
+    position
+*/
 .about{
     height: 100vh;
     display: flex;
     align-items: center;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
+
+/* in about-left, and about-right, flex:1, means both children div will cover the half of the width of about div, and height will be same */
 
 .about-left{
     flex:1;
-    border:1px solid orange;
+    /* border:1px solid orange; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -18,7 +38,7 @@
 
 .about-right{
     flex:1;
-    border:1px solid blue;
+    /* border:1px solid blue; */
 }
 
 .about-card{
